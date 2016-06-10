@@ -35,7 +35,7 @@ configuration files (dotfiles) in this repo.
     3. `$ brew bundle --file=~/.dotfiles/homebrew/.Brewfile`
     After the `.Brewfile` is symlinked into ``~/.Brewfile`, just use `$ brew bundle --global`.
   - Make sure Stow gets installed, we'll use this later to symlink the dotfiles.
-  - Ruby:
+  - Ruby: (IGNORE FOR NOW unless you've got the POWAH)
     1. Use [`rvm`](http://rvm.io/) instead of Homebrew. Much easier to manage
     gemsets, ruby versions, etc.
   - Node:
@@ -54,9 +54,11 @@ configuration files (dotfiles) in this repo.
   2. Append the path to zsh - Homebrew sticks it in `/usr/local/bin/zsh`
   3. Save and exit
   4. `$ chsh -s /usr/local/bin/zsh`
+     (To reverse, `$ chsh -s /bin/bash`)
+	
 
 5. Install Prezto:
-  - Install [my fork](https://github.com/jeffwidman/prezto) because it includes
+  - Install [Jeff's fork](https://github.com/jeffwidman/prezto) because it includes
   a plugin for [Atom](http://atom.io).
 
   `git clone --recursive git@github.com:jeffwidman/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"`
