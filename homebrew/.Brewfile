@@ -1,4 +1,4 @@
-# Jeff Widman's Brewfile
+# Mark Sumastre's Brewfile
 # To make it so Homebrew can handle Brewfiles:
 #   `brew tap Homebrew/bundle`
 #   `brew bundle --file=~/.dotfiles/homebrew/.Brewfile`
@@ -20,9 +20,9 @@ tap 'homebrew/dupes'
 # Install all the things:
 brew 'zsh'
 brew 'ssh-copy-id'
-brew 'fasd' # Fast directory switcher
+#brew 'fasd' # Fast directory switcher
 brew 'git'
-brew 'gibo' # quickly access Github's git ignore templates
+#brew 'gibo' # quickly access Github's git ignore templates
 brew 'homebrew/dupes/less'
 brew 'lesspipe' # pre-processes various file formats so they can be paged via Less
 brew 'ctags'
